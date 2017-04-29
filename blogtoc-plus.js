@@ -259,7 +259,7 @@ function displayToc2() {
               document.write(' - ' + postDate[a]);
             }
             if (postBaru[a] == true) {
-                document.write(' - <strong><em><span style="color: rgb(255, 0, 0);">New !!</span> </em></strong>')
+                document.write(' - <strong><em><span style="color: rgb(255, 0, 0);"></span> </em></strong>')
             }
             document.write("</li>");
             a = a + 1
